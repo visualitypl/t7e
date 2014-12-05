@@ -7,7 +7,7 @@ Gem to push/send translation files to your T7e server
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 't7e'
+gem 't7e', git: 'git@github.com:visualitypl/t7e.git'
 ```
 
 And then execute:

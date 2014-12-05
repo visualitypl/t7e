@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = T7e::VERSION
   spec.authors       = ["Mariusz Koziel"]
   spec.email         = ["m.koziel@visuality.pl"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = "t7e"
+  spec.description   = "Gem to push/send translation files to your T7e server"
   spec.homepage      = ""
   spec.license       = "MIT"
 
