@@ -3,7 +3,7 @@ require 'yaml'
 class T7e::Configuration
   attr_accessor :api_key, :url, :languages
 
-  CONFIG_FILE = 't7e_config.yml'
+  CONFIG_FILE = 'config/t7e_config.yml'
 
   def initialize
     read_config.each do |setting, value|
