@@ -9,8 +9,6 @@ class T7e::ApiCall
   end
 
   def self.pull_call(language)
-    RestClient.get(T7e.configuration.url, {
-      :language => language
-      })
+    RestClient.get(T7e.configuration.url + '?language=' + language )
   end
 end
