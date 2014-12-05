@@ -1,5 +1,8 @@
-require "t7e/version"
+#require "t7e/version"
 
 module T7e
-  # Your code goes here...
+  def self.execute(command)
+    command
+  end
+
 end
