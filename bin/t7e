@@ -2,4 +2,9 @@
 $LOAD_PATH.unshift(File.expand_path(File.join(File.dirname(__FILE__), '..', 'lib')))
 
 require 't7e'
-T7e.execute(ARGV[0])
+
+command = ARGV[0]
+path = ARGV[1]
+
+path = "config/locales/" unless path
+T7e.execute(command, path)

@@ -1,6 +1,6 @@
 # T7e
 
-TODO: Write a gem description
+Gem to push/send translation files to your T7e server
 
 ## Installation
 
@@ -20,7 +20,14 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+First you have to create t7e_config.yml file
+
+```ruby
+api_key: 9ee251d46740ceb29f049976136c576c
+url: "http://localhost:3000/api/v1/projects/9ee251d46740ceb29f049976136c576c"
+languages: ['en', 'pl']
+
+```
 
 ## Contributing
 
