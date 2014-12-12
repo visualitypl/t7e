@@ -11,7 +11,7 @@ module T7e
     attr_accessor :configuration
 
     def execute(command, path = nil)
-      if File.exist?('t7e_config.yml')
+      if File.exist?(Configuration::CONFIG_FILE)
         @configuration = Configuration.new
 
         if command == 'push'
