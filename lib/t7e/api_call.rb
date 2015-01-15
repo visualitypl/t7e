@@ -15,7 +15,7 @@ class T7e::ApiCall
 
     private
     def api_url
-      URI.join(T7e.configuration.url, 'api/v1/projects', T7e.configuration.api_key)
+      URI.join(T7e.configuration.url, 'api/v1/projects/', T7e.configuration.api_key).to_s
     end
   end
 end
