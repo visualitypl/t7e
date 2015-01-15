@@ -23,8 +23,8 @@ Or install it yourself as:
 First you have to create t7e_config.yml file
 
 ```ruby
+url: "http://localhost:3000"
 api_key: 9ee251d46740ceb29f049976136c576c
-url: "http://localhost:3000/api/v1/projects/9ee251d46740ceb29f049976136c576c"
 languages: ['en', 'pl']
 
 ```
