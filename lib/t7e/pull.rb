@@ -9,7 +9,7 @@ class T7e::Pull
   private
   def create_file(request, lang)
     content = request.to_str
-    target  = "config/locales/t7e_#{lang}.yml"
+    target  = "config/locales/#{lang}.yml"
 
     File.open(target, 'w+') do |f|
       f.write(content)

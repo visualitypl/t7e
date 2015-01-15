@@ -19,7 +19,7 @@ module T7e
         elsif command == 'pull'
           T7e::Pull.new.execute(path)
         else
-          puts 'this comand not exist. please use pull or push'
+          puts 'this command not exist. please use pull or push'
         end
       else
         puts 'you have to create t7e_config.yml'
