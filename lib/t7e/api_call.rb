@@ -1,4 +1,4 @@
-require 'rest_client'
+require 'rest-client'
 
 class T7e::ApiCall
   class << self
