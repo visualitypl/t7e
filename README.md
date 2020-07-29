@@ -1,3 +1,7 @@
+# Archived
+
+This project's support has been ceased. No future fixes or pull requests are planned.
+
 # T7e
 
 Gem to push/send translation files to your T7e server
